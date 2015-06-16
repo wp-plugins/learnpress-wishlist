@@ -14,7 +14,7 @@ LearnPress Wishlist add wishlist feature to your LearnPress course in your site.
 
 [LearnPress](https://wordpress.org/plugins/learnpress) Wishlist bring wishlist feature for LearnPress. It allows you to add your favorite course to a list to take later. We have created the LearnPress WordPress LMS plugin with add-ons structure in mind as well as keeping it as lightweight as possible, so together with other add-ons, Wishlist will help to complete LearnPress much more. Check out other add-ons for LearnPress below.
 
-**Free add-on for LearnPress WordPress LMS Plugin:**
+**Free add-ons for LearnPress WordPress LMS Plugin:**
 
 - <a href="https://wordpress.org/plugins/learnpress-course-review" target="_blank">LearnPress Course Review</a> - review course for enrolled students.
 - <a href="https://wordpress.org/plugins/learnpress-import-export" target="_blank">LearnPress Import Export</a> - export or import course or courses out-of-box.
