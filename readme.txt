@@ -1,5 +1,5 @@
 ===  LearnPress Wishlist ===
-Contributors: thimpress, halink0803, tunnhn  
+Contributors: thimpress, kendy73, halink0803, tunnhn  
 Donate link:  
 Tags: learnpress, wishlist, lms, elearning, e-learning, learning management system, education, course, courses, quiz, quizzes, questions, training
 Requires at least: 3.8  
