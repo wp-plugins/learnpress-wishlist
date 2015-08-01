@@ -125,7 +125,7 @@ function learn_press_wishlist_tab( $tabs, $user ) {
 
     $tabs[35] = array(
         'tab_id'      => 'user_wishlist',
-        'tab_name'    => __( 'Wishlist', 'learn_press' ),
+        'tab_name'    => __( 'Wishlist', 'learnpress_wishlist' ),
         'tab_content' => apply_filters( 'learn_press_user_wishlist_tab_content', $content, $user )
     );
     // Private customize
@@ -162,7 +162,7 @@ if ( learn_press_buddypress_is_active() ) {
         $wp_admin_nav[] = array(
             'parent' => 'my-account-' . $courses_slug,
             'id'     => 'my-account-' . $courses_slug . '-wishlist',
-            'title'  => __( 'Wishlist', 'learn_press' ),
+            'title'  => __( 'Wishlist', 'learnpress_wishlist' ),
             'href'   => trailingslashit( $courses_link . 'wishlist' )
         );
         return $wp_admin_nav;
@@ -176,7 +176,7 @@ if ( learn_press_buddypress_is_active() ) {
 
         function learn_press_bp_courses_nav_wishlist( $sub_navs ) {
             $nav_wishlist = array(
-                'name'                    => __( 'Wishlist', 'learn_press' ),
+                'name'                    => __( 'Wishlist', 'learnpress_wishlist' ),
                 'slug'                    => 'wishlist',
                 'show_for_displayed_user' => false,
                 'position'                => 10,
@@ -198,7 +198,7 @@ if ( learn_press_buddypress_is_active() ) {
          * Setup title of navigation all
          */
         function learn_press_bp_courses_wishlist_title() {
-            echo __( 'Your wishlist', 'learn_press' );
+            echo __( 'Your wishlist', 'learnpress_wishlist' );
         }
 
         /*
