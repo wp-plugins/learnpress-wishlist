@@ -1,5 +1,5 @@
 ===  LearnPress Wishlist - WordPress extension for LearnPress ===  
-Contributors: thimpress, halink0803, tunnhn  
+Contributors: thimpress, kendy73, tunnhn  
 Donate link:  
 Tags: lms, elearning, e-learning, learning management system, education, course, courses, quiz, quizzes, questions, training, guru, sell courses  
 Requires at least: 3.8  
