@@ -147,6 +147,15 @@ function learn_press_user_wishlist_tab_content( $content, $user ) {
     return $content;
 }
 
+if( ! function_exists( 'learn_press_buddypress_is_active' ) ){
+    function learn_press_buddypress_is_active() {
+        if ( !function_exists( 'is_plugin_active' ) ) {
+            include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+        }
+
+        return class_exists( 'BuddyPress' ) && is_plugin_active( 'buddypress/bp-loader.php' );
+    }
+}
 
 if ( learn_press_buddypress_is_active() ) {
 
